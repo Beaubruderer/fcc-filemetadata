@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CDFTransmissionFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CDF3_Release_13_01_00_00_TransmissionFile.xsd">
+  <TransmissionHeader_1000>
+    <TransRecordHeader>
+      <SequenceNum>0000001</SequenceNum>
+    </TransRecordHeader>
+    <ProcessingStartDate>2017-05-24</ProcessingStartDate>
+    <ProcessingStartTime>08:12:53</ProcessingStartTime>
+    <ProcessingEndDate>2017-05-24</ProcessingEndDate>
+    <ProcessingEndTime>08:12:53</ProcessingEndTime>
+    <FileReferenceNum>BMontreal20170524081253</FileReferenceNum>
+    <CDFVersionNum>3.00</CDFVersionNum>
+    <RunModeIndicator>P</RunModeIndicator>
+    <ProcessorNum>01001</ProcessorNum>
+    <ProcessorName>BANK OF MONTREAL</ProcessorName>
+    <MasterCardFileSequenceNum>000042</MasterCardFileSequenceNum>
+    <SchemaVersionNum>13.01.00.00</SchemaVersionNum>
+  </TransmissionHeader_1000>
+  <IssuerEntity ICANumber="00000009398" IssuerNumber="93980100000">
+    <CorporateEntity CorporationNumber="0000000000000760069">
+      <AccountEntity AccountNumber="XXXXXXXXXXXX0915">
+        <FinancialAdjustmentRecord_5900>
+          <FinancialRecordHeader>
+            <SequenceNum>0000002</SequenceNum>
+            <MaintenanceCode>A</MaintenanceCode>
+          </FinancialRecordHeader>
+          <ProcessorTransactionId>85143073651  0012203247 160812029</ProcessorTransactionId>
+          <ReversalFlag>O</ReversalFlag>
+          <MasterCardFinancialTransactionId>20170523311345</MasterCardFinancialTransactionId>
+          <AdjustmentReasonCode>PY10</AdjustmentReasonCode>
+          <AdjustmentDescription>AUTOMATIC PAYMENT RECEIVED - THANK YOU</AdjustmentDescription>
+          <PostingDate>2017-05-23</PostingDate>
+          <TransactionDate>2017-05-23</TransactionDate>
+          <ProcessingDate>2017-05-23</ProcessingDate>
+          <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="C">0000000000141892</AmountInOriginalCurrency>
+          <OriginalCurrencyCode>840</OriginalCurrencyCode>
+          <DebitOrCreditIndicator>C</DebitOrCreditIndicator>
+          <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="C">0000000000141892</AmountInPostedCurrency>
+          <PostedCurrencyCode>840</PostedCurrencyCode>
+          <PostedCurrencyConversionDateJulian>17143</PostedCurrencyConversionDateJulian>
+          <PostedConversionRate>10000000</PostedConversionRate>
+          <EmployeeId>52047</EmployeeId>
+        </FinancialAdjustmentRecord_5900>
+      </AccountEntity>
+    </CorporateEntity>
+  </IssuerEntity>
+  <TransmissionTrailer_9999>
+    <TransRecordHeader>
+      <SequenceNum>0000003</SequenceNum>
+    </TransRecordHeader>
+    <RecordCount>0000000001</RecordCount>
+    <NumOfCredits>0000000001</NumOfCredits>
+    <TotalAmountOfCredits>0000000001418.92</TotalAmountOfCredits>
+    <NumOfDebits>0000000000</NumOfDebits>
+    <TotalAmountOfDebits>0000000000000000</TotalAmountOfDebits>
+  </TransmissionTrailer_9999>
+</CDFTransmissionFile>

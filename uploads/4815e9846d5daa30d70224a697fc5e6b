@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CDFTransmissionFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CDFTransmissionFile.xsd">
+  <TransmissionHeader_1000>
+    <TransRecordHeader>
+      <SequenceNum>00000001</SequenceNum>
+      <MasterCardRecSeqNum>00000001</MasterCardRecSeqNum>
+      <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+      <MasterCardLoadTime>07:33:28</MasterCardLoadTime>
+    </TransRecordHeader>
+    <ProcessingStartDate>2017-06-01</ProcessingStartDate>
+    <ProcessingStartTime>03:32:50</ProcessingStartTime>
+    <ProcessingEndDate>2017-06-05</ProcessingEndDate>
+    <ProcessingEndTime>07:30:21</ProcessingEndTime>
+    <FileReferenceNum>000000000000000201844223</FileReferenceNum>
+    <CDFVersionNum>3.00</CDFVersionNum>
+    <RunModeIndicator>P</RunModeIndicator>
+    <ProcessorNum>G0425493</ProcessorNum>
+    <ProcessorName>MasterCard Provider</ProcessorName>
+    <MasterCardFileSequenceNum>000012</MasterCardFileSequenceNum>
+    <MasterCardResetNum>000000</MasterCardResetNum>
+    <InboundSourceFormat>CDF3</InboundSourceFormat>
+    <SchemaVersionNum>13.01.00.00</SchemaVersionNum>
+  </TransmissionHeader_1000>
+    <IssuerEntity ICANumber="00000007292" IssuerNumber="007292">
+      <CorporateEntity CorporationNumber="9526035405">
+        <AccountEntity AccountNumber="78381">
+          <FinancialTransactionEntity ProcessorTransactionId="54321">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>00000004</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000004</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>54321</ProcessorTransactionId>
+            <MasterCardEstimatedTaxIndicator>7</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>000006131874833</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>75433337154201706000018</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-06-03</PostingDate>
+            <TransactionDate>2017-06-02</TransactionDate>
+            <ProcessingDate>2017-06-03</ProcessingDate>
+            <BillingDate>2017-07-16</BillingDate>
+            <ApprovalCode>808588</ApprovalCode>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="410" CurrencyExponent="0" CurrencySign="D">0000000000045900</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>410</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="410" CurrencyExponent="0" CurrencySign="D">0000000000045900</AmountInPostedCurrency>
+            <PostedCurrencyCode>410</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17017</PostedCurrencyConversionDate>
+            <PostedConversionRate>1.000000</PostedConversionRate>
+            <TotalTaxAmount CurrencyCode="410" CurrencyExponent="4" CurrencySign="D">0000000041727273</TotalTaxAmount>
+            <IssuerTransactionCode>0000</IssuerTransactionCode>
+            <TransactionCategory>0000</TransactionCategory>
+            <DataSource>00</DataSource>
+            <MatchSwitch>N</MatchSwitch>
+            <EmployeeId>78381</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>00000005</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000005</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000007292</AcquiringICA>
+            <CardAcceptorId>151179141</CardAcceptorId>
+            <CardAcceptorName>(JOO)INISIS</CardAcceptorName>
+            <CardAcceptorStreetAddress>UNKNOWN</CardAcceptorStreetAddress>
+            <CardAcceptorCity>KYUNG GI</CardAcceptorCity>
+            <CardAcceptorStateProvince>KOR</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>000000</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>KOR</CardAcceptorCountryCode>
+            <CardAcceptorBusinessCode>4816</CardAcceptorBusinessCode>
+            <CardAcceptorType>0000</CardAcceptorType>
+          </CardAcceptor_5001>
+          <TaxAddendum_5300>
+            <FinancialRecordHeader>
+              <SequenceNum>00000006</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000006</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <TaxAmountIndicator>Y</TaxAmountIndicator>
+            <TaxAmount CurrencyCode="410" CurrencyExponent="4" CurrencySign="D">0000000041727273</TaxAmount>
+            <TaxRate Exponent="5">00000000000010000</TaxRate>
+            <TaxTypeIdentifier>01</TaxTypeIdentifier>
+          </TaxAddendum_5300>
+          </FinancialTransactionEntity>
+        </AccountEntity>
+        <AccountEntity AccountNumber="XXXXXXXXXXXX8207">
+        <AccountInformation_4300>
+          <HierarchyRecordHeader>
+            <SequenceNum>00000002</SequenceNum>
+            <StatusCode>A</StatusCode>
+            <MasterCardRecSeqNum>00000002</MasterCardRecSeqNum>
+            <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+            <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+          </HierarchyRecordHeader>
+          <ReportsTo/>
+          <PostedCurrencyCode>410</PostedCurrencyCode>
+          <BillingCurrencyCode>410</BillingCurrencyCode>
+          <BillingType>C</BillingType>
+          <AcceptanceBrandIdCode>MCC</AcceptanceBrandIdCode>
+          <CorporateProduct>MCB</CorporateProduct>
+          <AccountTypeCode>A</AccountTypeCode>
+          <EffectiveDate>2017-05-19</EffectiveDate>
+          <ExpirationDate>2022-04</ExpirationDate>
+          <NameLocaleCode>ENU</NameLocaleCode>
+          <NameLine1>JI HYUN HELENA KIM</NameLine1>
+          <InternalAccountingCode>047080211</InternalAccountingCode>
+          <TaxExemptIndicator>0</TaxExemptIndicator>
+          <TransitRoutingNum>000000000</TransitRoutingNum>
+          <NumOfCards>0000000</NumOfCards>
+          <CreditLimit Exponent="0">0000000000000000</CreditLimit>
+        </AccountInformation_4300>
+        <HierarchyAddress_4410>
+          <HierarchyRecordHeader>
+            <SequenceNum>00000003</SequenceNum>
+            <StatusCode>A</StatusCode>
+            <MasterCardRecSeqNum>00000003</MasterCardRecSeqNum>
+            <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+            <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+          </HierarchyRecordHeader>
+          <LocaleCode>ENU</LocaleCode>
+          <PrimaryAddressIndicator>Y</PrimaryAddressIndicator>
+          <AddressTypeCode>OTR</AddressTypeCode>
+          <AddressNum>01</AddressNum>
+          <AddressLine>KYUNG GI</AddressLine>
+          <City>Seoul</City>
+          <StateProvince>KOR</StateProvince>
+          <CountryCode>KOR</CountryCode>
+          <PostalCode>   -</PostalCode>
+          <PhoneNum>(    )    -</PhoneNum>
+        </HierarchyAddress_4410>
+          <FinancialTransactionEntity ProcessorTransactionId="01458">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>00000007</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000007</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>01458</ProcessorTransactionId>
+            <MasterCardEstimatedTaxIndicator>7</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>000006131874835</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>75433337154201706000018</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-06-03</PostingDate>
+            <TransactionDate>2017-06-02</TransactionDate>
+            <ProcessingDate>2017-06-03</ProcessingDate>
+            <BillingDate>2017-06-25</BillingDate>
+            <ApprovalCode>314846</ApprovalCode>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="410" CurrencyExponent="0" CurrencySign="D">0000000000105100</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>410</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="410" CurrencyExponent="0" CurrencySign="D">0000000000105100</AmountInPostedCurrency>
+            <PostedCurrencyCode>410</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17017</PostedCurrencyConversionDate>
+            <PostedConversionRate>1.000000</PostedConversionRate>
+            <TotalTaxAmount CurrencyCode="410" CurrencyExponent="4" CurrencySign="D">0000000095545455</TotalTaxAmount>
+            <IssuerTransactionCode>0000</IssuerTransactionCode>
+            <TransactionCategory>0000</TransactionCategory>
+            <DataSource>00</DataSource>
+            <MatchSwitch>N</MatchSwitch>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>00000008</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000008</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000007292</AcquiringICA>
+            <CardAcceptorId>141004875</CardAcceptorId>
+            <CardAcceptorName>(JOO)EOBUNGLOOBBATOS</CardAcceptorName>
+            <CardAcceptorStreetAddress>UNKNOWN</CardAcceptorStreetAddress>
+            <CardAcceptorCity>SEOWOOL</CardAcceptorCity>
+            <CardAcceptorStateProvince>KOR</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>000000</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>KOR</CardAcceptorCountryCode>
+            <CardAcceptorBusinessCode>5812</CardAcceptorBusinessCode>
+            <CardAcceptorType>0000</CardAcceptorType>
+          </CardAcceptor_5001>
+          <TaxAddendum_5300>
+            <FinancialRecordHeader>
+              <SequenceNum>00000009</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000009</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <TaxAmountIndicator>Y</TaxAmountIndicator>
+            <TaxAmount CurrencyCode="410" CurrencyExponent="4" CurrencySign="D">0000000095545455</TaxAmount>
+            <TaxRate Exponent="5">00000000000010000</TaxRate>
+            <TaxTypeIdentifier>01</TaxTypeIdentifier>
+          </TaxAddendum_5300>
+          </FinancialTransactionEntity>
+          <FinancialTransactionEntity ProcessorTransactionId="01459">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>00000010</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000010</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>01459</ProcessorTransactionId>
+            <MasterCardEstimatedTaxIndicator>7</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>000006131874837</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>75433337154201706000018</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-06-04</PostingDate>
+            <TransactionDate>2017-06-03</TransactionDate>
+            <ProcessingDate>2017-06-04</ProcessingDate>
+            <BillingDate>2017-06-25</BillingDate>
+            <ApprovalCode>130534</ApprovalCode>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="410" CurrencyExponent="0" CurrencySign="D">0000000000040700</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>410</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="410" CurrencyExponent="0" CurrencySign="D">0000000000040700</AmountInPostedCurrency>
+            <PostedCurrencyCode>410</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17017</PostedCurrencyConversionDate>
+            <PostedConversionRate>1.000000</PostedConversionRate>
+            <TotalTaxAmount CurrencyCode="410" CurrencyExponent="4" CurrencySign="D">0000000037000000</TotalTaxAmount>
+            <IssuerTransactionCode>0000</IssuerTransactionCode>
+            <TransactionCategory>0000</TransactionCategory>
+            <DataSource>00</DataSource>
+            <MatchSwitch>N</MatchSwitch>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>00000011</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000011</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000007292</AcquiringICA>
+            <CardAcceptorId>103661781</CardAcceptorId>
+            <CardAcceptorName>STARBUCKSCOFFEE</CardAcceptorName>
+            <CardAcceptorStreetAddress>UNKNOWN</CardAcceptorStreetAddress>
+            <CardAcceptorCity>CHOONG-GU,SEOUL</CardAcceptorCity>
+            <CardAcceptorStateProvince>KOR</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>000000</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>KOR</CardAcceptorCountryCode>
+            <CardAcceptorBusinessCode>5462</CardAcceptorBusinessCode>
+            <CardAcceptorType>0000</CardAcceptorType>
+          </CardAcceptor_5001>
+          <TaxAddendum_5300>
+            <FinancialRecordHeader>
+              <SequenceNum>00000012</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+              <MasterCardRecSeqNum>00000012</MasterCardRecSeqNum>
+              <MasterCardLoadDate>2017-06-05</MasterCardLoadDate>
+              <MasterCardLoadTime>07:30:13</MasterCardLoadTime>
+            </FinancialRecordHeader>
+            <TaxAmountIndicator>Y</TaxAmountIndicator>
+            <TaxAmount CurrencyCode="410" CurrencyExponent="4" CurrencySign="D">0000000037000000</TaxAmount>
+            <TaxRate Exponent="5">00000000000010000</TaxRate>
+            <TaxTypeIdentifier>01</TaxTypeIdentifier>
+          </TaxAddendum_5300>
+          </FinancialTransactionEntity>
+        </AccountEntity>
+      </CorporateEntity>
+    </IssuerEntity>
+  <TransmissionTrailer_9999>
+    <TransRecordHeader>
+      <SequenceNum>00000013</SequenceNum>
+      <MasterCardRecSeqNum>00000013</MasterCardRecSeqNum>
+    </TransRecordHeader>
+    <RecordCount>00000013</RecordCount>
+    <NumOfCredits>0000000000</NumOfCredits>
+    <NumOfDebits>0000000003</NumOfDebits>
+    <TotalAmountOfDebits>00000000001917000000</TotalAmountOfDebits>
+    <EarliestPostingDate>2017-06-03</EarliestPostingDate>
+    <LatestPostingDate>2017-06-04</LatestPostingDate>
+    <EarliestTxnDate>2017-06-02</EarliestTxnDate>
+    <LatestTxnDate>2017-06-03</LatestTxnDate>
+    <NumberOfTxnDebits>0000000003</NumberOfTxnDebits>
+    <NumberOfTxnCredits>0000000000</NumberOfTxnCredits>
+    <NumberOfAdjDebits>0000000000</NumberOfAdjDebits>
+    <NumberOfAdjCredits>0000000000</NumberOfAdjCredits>
+  </TransmissionTrailer_9999>
+</CDFTransmissionFile>

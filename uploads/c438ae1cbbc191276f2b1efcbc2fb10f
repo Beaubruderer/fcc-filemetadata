@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CDFTransmissionFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CDF3_Release_13_01_00_00_TransmissionFile.xsd">
+  <TransmissionHeader_1000>
+    <TransRecordHeader>
+      <SequenceNum>0000001</SequenceNum>
+    </TransRecordHeader>
+    <ProcessingStartDate>2017-09-20</ProcessingStartDate>
+    <ProcessingStartTime>08:20:05</ProcessingStartTime>
+    <ProcessingEndDate>2017-09-20</ProcessingEndDate>
+    <ProcessingEndTime>08:20:05</ProcessingEndTime>
+    <FileReferenceNum>BMontreal20170920082005</FileReferenceNum>
+    <CDFVersionNum>3.00</CDFVersionNum>
+    <RunModeIndicator>P</RunModeIndicator>
+    <ProcessorNum>01001</ProcessorNum>
+    <ProcessorName>BANK OF MONTREAL</ProcessorName>
+    <MasterCardFileSequenceNum>000127</MasterCardFileSequenceNum>
+    <SchemaVersionNum>13.01.00.00</SchemaVersionNum>
+  </TransmissionHeader_1000>
+  <IssuerEntity ICANumber="00000009398" IssuerNumber="93980100000">
+    <CorporateEntity CorporationNumber="0000000000000760069">
+      <AccountEntity AccountNumber="XXXXXXXXXXXX0915">
+        <FinancialTransactionEntity ProcessorTransactionId="181710489">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>0000002</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>25536067262101009429356 181710489</ProcessorTransactionId>
+            <ReversalFlag> </ReversalFlag>
+            <MasterCardEstimatedTaxIndicator>0</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>20170919205435</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>25536067262101009429356</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-09-18</PostingDate>
+            <TransactionDate>2017-09-18</TransactionDate>
+            <ProcessingDate>2017-09-19</ProcessingDate>
+            <ApprovalCode>103022</ApprovalCode>
+            <BanknetReferenceNum>MCFW7ZUBD0915</BanknetReferenceNum>
+            <CardAcceptorTerminalId>LK282841</CardAcceptorTerminalId>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000002995</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>840</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000002995</AmountInPostedCurrency>
+            <PostedCurrencyCode>840</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17262</PostedCurrencyConversionDate>
+            <PostedConversionRate>1</PostedConversionRate>
+            <CustomerCode>910000000575318</CustomerCode>
+            <TotalTaxCollectedIndicator/>
+            <CardAcceptorReferenceNum>5855700655</CardAcceptorReferenceNum>
+            <DestinationPostalCode>10013</DestinationPostalCode>
+            <DestinationStateProvinceCode>NY</DestinationStateProvinceCode>
+            <DestinationCountryCode>USA</DestinationCountryCode>
+            <UniqueInvoiceNum>5855700655</UniqueInvoiceNum>
+            <TaxExemptIndicator>N</TaxExemptIndicator>
+            <CardAcceptorAdditionalNameInformation>SPRINGER CUSTOMER      NEW YORK      NY</CardAcceptorAdditionalNameInformation>
+            <EmployeeId>52047</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>0000003</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000007239</AcquiringICA>
+            <CardAcceptorId>542929805655925</CardAcceptorId>
+            <CardAcceptorName>SPRINGER CUSTOMER</CardAcceptorName>
+            <CardAcceptorStreetAddress>233 SPRING STREET</CardAcceptorStreetAddress>
+            <CardAcceptorCity>NEW YORK</CardAcceptorCity>
+            <CardAcceptorStateProvince>NY</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>10013</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>USA</CardAcceptorCountryCode>
+            <CardAcceptorCustomerServiceTelephoneNum>2124601500</CardAcceptorCustomerServiceTelephoneNum>
+            <LegalCorporationName>SPRINGER CUSTOMER</LegalCorporationName>
+            <CardAcceptorBusinessCode>2741</CardAcceptorBusinessCode>
+            <CardAcceptorTypeIndicator>YYYY</CardAcceptorTypeIndicator>
+            <CardAcceptorType>8000</CardAcceptorType>
+            <DUNNum>000000000000000</DUNNum>
+            <CardAcceptorTaxIdIndicator>Y</CardAcceptorTaxIdIndicator>
+            <CardAcceptorTaxId>262544201</CardAcceptorTaxId>
+          </CardAcceptor_5001>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000004</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionReasonCode</Label>
+            <Data>RT10</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000005</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionTime</Label>
+            <Data>000000</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000006</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransferedToFromAccount</Label>
+            <Data>556315xxxxxx0915</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+        </FinancialTransactionEntity>
+        <FinancialTransactionEntity ProcessorTransactionId="181710490">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>0000007</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>55310207261286770900016 181710490</ProcessorTransactionId>
+            <ReversalFlag> </ReversalFlag>
+            <MasterCardEstimatedTaxIndicator>0</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>20170919205437</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>55310207261286770900016</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-09-18</PostingDate>
+            <TransactionDate>2017-09-18</TransactionDate>
+            <ProcessingDate>2017-09-19</ProcessingDate>
+            <ApprovalCode>155600</ApprovalCode>
+            <BanknetReferenceNum>MCFS54JUR0918</BanknetReferenceNum>
+            <CardAcceptorTerminalId>8770</CardAcceptorTerminalId>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000004600</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>840</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000004600</AmountInPostedCurrency>
+            <PostedCurrencyCode>840</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17262</PostedCurrencyConversionDate>
+            <PostedConversionRate>1</PostedConversionRate>
+            <TotalTaxCollectedIndicator/>
+            <CardAcceptorReferenceNum>0000020477</CardAcceptorReferenceNum>
+            <DestinationPostalCode>000000000</DestinationPostalCode>
+            <DestinationStateProvinceCode>UNK</DestinationStateProvinceCode>
+            <DestinationCountryCode>USA</DestinationCountryCode>
+            <TaxExemptIndicator>Y</TaxExemptIndicator>
+            <CardAcceptorAdditionalNameInformation>WORLD SCIENTIFIC       02014879655   NJ</CardAcceptorAdditionalNameInformation>
+            <EmployeeId>52047</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>0000008</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000010100</AcquiringICA>
+            <CardAcceptorId>345347419888</CardAcceptorId>
+            <CardAcceptorName>WORLD SCIENTIFIC</CardAcceptorName>
+            <CardAcceptorStreetAddress>27 WARREN ST</CardAcceptorStreetAddress>
+            <CardAcceptorCity>02014879655</CardAcceptorCity>
+            <CardAcceptorStateProvince>NJ</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>07601</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>USA</CardAcceptorCountryCode>
+            <CardAcceptorCustomerServiceTelephoneNum>2014879655</CardAcceptorCustomerServiceTelephoneNum>
+            <LegalCorporationName>WORLD SCIENTIFIC INC</LegalCorporationName>
+            <CardAcceptorBusinessCode>7399</CardAcceptorBusinessCode>
+            <CardAcceptorTypeIndicator>YYYY</CardAcceptorTypeIndicator>
+            <CardAcceptorType>1000</CardAcceptorType>
+            <DUNNum>000000000000000</DUNNum>
+            <CardAcceptorTaxIdIndicator>Y</CardAcceptorTaxIdIndicator>
+            <CardAcceptorTaxId>133401101</CardAcceptorTaxId>
+          </CardAcceptor_5001>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000009</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionReasonCode</Label>
+            <Data>RT10</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000010</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionTime</Label>
+            <Data>204530</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000011</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransferedToFromAccount</Label>
+            <Data>556315xxxxxx0915</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+        </FinancialTransactionEntity>
+      </AccountEntity>
+      <AccountEntity AccountNumber="XXXXXXXXXXXX4289">
+        <FinancialAdjustmentRecord_5900>
+          <FinancialRecordHeader>
+            <SequenceNum>0000012</SequenceNum>
+            <MaintenanceCode>A</MaintenanceCode>
+          </FinancialRecordHeader>
+          <ProcessorTransactionId>967UC0913452017262 181710491</ProcessorTransactionId>
+          <ReversalFlag>O</ReversalFlag>
+          <MasterCardFinancialTransactionId>20170919205439</MasterCardFinancialTransactionId>
+          <AdjustmentReasonCode>PY10</AdjustmentReasonCode>
+          <AdjustmentDescription>PAYMENT RECEIVED - THANK YOU</AdjustmentDescription>
+          <PostingDate>2017-09-19</PostingDate>
+          <TransactionDate>2017-09-19</TransactionDate>
+          <ProcessingDate>2017-09-19</ProcessingDate>
+          <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="C">0000000003472214</AmountInOriginalCurrency>
+          <OriginalCurrencyCode>840</OriginalCurrencyCode>
+          <DebitOrCreditIndicator>C</DebitOrCreditIndicator>
+          <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="C">0000000003472214</AmountInPostedCurrency>
+          <PostedCurrencyCode>840</PostedCurrencyCode>
+          <PostedCurrencyConversionDateJulian>17262</PostedCurrencyConversionDateJulian>
+          <PostedConversionRate>10000000</PostedConversionRate>
+          <EmployeeId>7999994512017965</EmployeeId>
+        </FinancialAdjustmentRecord_5900>
+      </AccountEntity>
+      <AccountEntity AccountNumber="XXXXXXXXXXXX3124">
+        <FinancialTransactionEntity ProcessorTransactionId="181710492">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>0000013</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>25536067262101009587435 181710492</ProcessorTransactionId>
+            <ReversalFlag> </ReversalFlag>
+            <MasterCardEstimatedTaxIndicator>0</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>20170919205440</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>25536067262101009587435</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-09-18</PostingDate>
+            <TransactionDate>2017-09-14</TransactionDate>
+            <ProcessingDate>2017-09-19</ProcessingDate>
+            <ApprovalCode>160101</ApprovalCode>
+            <BanknetReferenceNum>MCFDGWZ140914</BanknetReferenceNum>
+            <CardAcceptorTerminalId>4FQ76G1N</CardAcceptorTerminalId>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000001638</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>840</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000001638</AmountInPostedCurrency>
+            <PostedCurrencyCode>840</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17262</PostedCurrencyConversionDate>
+            <PostedConversionRate>1</PostedConversionRate>
+            <CustomerCode>26598080</CustomerCode>
+            <TotalTaxCollectedIndicator/>
+            <CardAcceptorReferenceNum>26640566</CardAcceptorReferenceNum>
+            <DestinationPostalCode>66061</DestinationPostalCode>
+            <DestinationStateProvinceCode>KS</DestinationStateProvinceCode>
+            <DestinationCountryCode>USA</DestinationCountryCode>
+            <UniqueInvoiceNum>26640566</UniqueInvoiceNum>
+            <TaxExemptIndicator>Y</TaxExemptIndicator>
+            <CardAcceptorAdditionalNameInformation>DC COURT EFILE- NI     OLATHE        KS</CardAcceptorAdditionalNameInformation>
+            <EmployeeId>58462</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>0000014</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000007239</AcquiringICA>
+            <CardAcceptorId>542929804866655</CardAcceptorId>
+            <CardAcceptorName>DC COURT EFILE- NI</CardAcceptorName>
+            <CardAcceptorStreetAddress>25501 WEST VALLEY</CardAcceptorStreetAddress>
+            <CardAcceptorCity>OLATHE</CardAcceptorCity>
+            <CardAcceptorStateProvince>KS</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>66061</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>USA</CardAcceptorCountryCode>
+            <CardAcceptorCustomerServiceTelephoneNum>9137547039</CardAcceptorCustomerServiceTelephoneNum>
+            <LegalCorporationName>DC COURT EFILE- NI</LegalCorporationName>
+            <CardAcceptorBusinessCode>9211</CardAcceptorBusinessCode>
+            <CardAcceptorTypeIndicator>YYYY</CardAcceptorTypeIndicator>
+            <CardAcceptorType>8000</CardAcceptorType>
+            <DUNNum>000000000000000</DUNNum>
+            <CardAcceptorTaxIdIndicator>Y</CardAcceptorTaxIdIndicator>
+            <CardAcceptorTaxId>261127023</CardAcceptorTaxId>
+          </CardAcceptor_5001>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000015</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionReasonCode</Label>
+            <Data>RT10</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000016</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionTime</Label>
+            <Data>000000</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000017</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransferedToFromAccount</Label>
+            <Data>556315xxxxxx3124</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+        </FinancialTransactionEntity>
+        <FinancialTransactionEntity ProcessorTransactionId="181710493">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>0000018</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>25536067262101009587609 181710493</ProcessorTransactionId>
+            <ReversalFlag> </ReversalFlag>
+            <MasterCardEstimatedTaxIndicator>0</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>20170919205442</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>25536067262101009587609</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-09-18</PostingDate>
+            <TransactionDate>2017-09-14</TransactionDate>
+            <ProcessingDate>2017-09-19</ProcessingDate>
+            <ApprovalCode>165448</ApprovalCode>
+            <BanknetReferenceNum>MCFEDA5140914</BanknetReferenceNum>
+            <CardAcceptorTerminalId>4FQ76G1N</CardAcceptorTerminalId>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000001638</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>840</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000001638</AmountInPostedCurrency>
+            <PostedCurrencyCode>840</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17262</PostedCurrencyConversionDate>
+            <PostedConversionRate>1</PostedConversionRate>
+            <CustomerCode>26598948</CustomerCode>
+            <TotalTaxCollectedIndicator/>
+            <CardAcceptorReferenceNum>26642180</CardAcceptorReferenceNum>
+            <DestinationPostalCode>66061</DestinationPostalCode>
+            <DestinationStateProvinceCode>KS</DestinationStateProvinceCode>
+            <DestinationCountryCode>USA</DestinationCountryCode>
+            <UniqueInvoiceNum>26642180</UniqueInvoiceNum>
+            <TaxExemptIndicator>Y</TaxExemptIndicator>
+            <CardAcceptorAdditionalNameInformation>DC COURT EFILE- NI     OLATHE        KS</CardAcceptorAdditionalNameInformation>
+            <EmployeeId>58462</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>0000019</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000007239</AcquiringICA>
+            <CardAcceptorId>542929804866655</CardAcceptorId>
+            <CardAcceptorName>DC COURT EFILE- NI</CardAcceptorName>
+            <CardAcceptorStreetAddress>25501 WEST VALLEY</CardAcceptorStreetAddress>
+            <CardAcceptorCity>OLATHE</CardAcceptorCity>
+            <CardAcceptorStateProvince>KS</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>66061</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>USA</CardAcceptorCountryCode>
+            <CardAcceptorCustomerServiceTelephoneNum>9137547039</CardAcceptorCustomerServiceTelephoneNum>
+            <LegalCorporationName>DC COURT EFILE- NI</LegalCorporationName>
+            <CardAcceptorBusinessCode>9211</CardAcceptorBusinessCode>
+            <CardAcceptorTypeIndicator>YYYY</CardAcceptorTypeIndicator>
+            <CardAcceptorType>8000</CardAcceptorType>
+            <DUNNum>000000000000000</DUNNum>
+            <CardAcceptorTaxIdIndicator>Y</CardAcceptorTaxIdIndicator>
+            <CardAcceptorTaxId>261127023</CardAcceptorTaxId>
+          </CardAcceptor_5001>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000020</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionReasonCode</Label>
+            <Data>RT10</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000021</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionTime</Label>
+            <Data>000000</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000022</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransferedToFromAccount</Label>
+            <Data>556315xxxxxx3124</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+        </FinancialTransactionEntity>
+      </AccountEntity>
+      <AccountEntity AccountNumber="XXXXXXXXXXXX9679">
+        <FinancialTransactionEntity ProcessorTransactionId="181710494">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>0000023</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>55457027261083173391165 181710494</ProcessorTransactionId>
+            <ReversalFlag> </ReversalFlag>
+            <MasterCardEstimatedTaxIndicator>0</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>20170919205444</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>55457027261083173391165</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-09-18</PostingDate>
+            <TransactionDate>2017-09-18</TransactionDate>
+            <ProcessingDate>2017-09-19</ProcessingDate>
+            <ApprovalCode>134852</ApprovalCode>
+            <BanknetReferenceNum>MCFC079TF0918</BanknetReferenceNum>
+            <CardAcceptorTerminalId>0000</CardAcceptorTerminalId>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000108980</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>840</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000108980</AmountInPostedCurrency>
+            <PostedCurrencyCode>840</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17262</PostedCurrencyConversionDate>
+            <PostedConversionRate>1</PostedConversionRate>
+            <CustomerCode>7554</CustomerCode>
+            <TotalTaxAmount CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000006169</TotalTaxAmount>
+            <TotalTaxCollectedIndicator>Y</TotalTaxCollectedIndicator>
+            <CardAcceptorReferenceNum>7554        00005</CardAcceptorReferenceNum>
+            <DestinationStateProvinceCode>UNK</DestinationStateProvinceCode>
+            <DestinationCountryCode>USA</DestinationCountryCode>
+            <ShipFromPostalCode>20722</ShipFromPostalCode>
+            <TaxExemptIndicator>N</TaxExemptIndicator>
+            <CardAcceptorAdditionalNameInformation>NATIONAL NEWS INC      03019856280   MD</CardAcceptorAdditionalNameInformation>
+            <EmployeeId>08722</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>0000024</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000006720</AcquiringICA>
+            <CardAcceptorId>825339603888</CardAcceptorId>
+            <CardAcceptorName>NATIONAL NEWS INC</CardAcceptorName>
+            <CardAcceptorStreetAddress>4331 BLADENSBURG RD</CardAcceptorStreetAddress>
+            <CardAcceptorCity>03019856280</CardAcceptorCity>
+            <CardAcceptorStateProvince>MD</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>20722</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>USA</CardAcceptorCountryCode>
+            <CardAcceptorCustomerServiceTelephoneNum>3019856280</CardAcceptorCustomerServiceTelephoneNum>
+            <LegalCorporationName>NATIONAL NEWS INC</LegalCorporationName>
+            <CardAcceptorBusinessCode>2741</CardAcceptorBusinessCode>
+            <CardAcceptorTypeIndicator>YYYY</CardAcceptorTypeIndicator>
+            <CardAcceptorType>1000</CardAcceptorType>
+            <DUNNum>000000000000000</DUNNum>
+            <CardAcceptorTaxIdIndicator>Y</CardAcceptorTaxIdIndicator>
+            <CardAcceptorTaxId>521540403</CardAcceptorTaxId>
+          </CardAcceptor_5001>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000025</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionReasonCode</Label>
+            <Data>RT10</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000026</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionTime</Label>
+            <Data>043714</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000027</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransferedToFromAccount</Label>
+            <Data>556315xxxxxx9679</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+        </FinancialTransactionEntity>
+      </AccountEntity>
+      <AccountEntity AccountNumber="XXXXXXXXXXXX9328">
+        <FinancialTransactionEntity ProcessorTransactionId="181710495">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>0000028</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>55432867261100690166356 181710495</ProcessorTransactionId>
+            <ReversalFlag> </ReversalFlag>
+            <MasterCardEstimatedTaxIndicator>0</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>20170919205446</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>55432867261100690166356</AcquirerReferenceData>
+            <CardHolderTransactionType>00</CardHolderTransactionType>
+            <PostingDate>2017-09-18</PostingDate>
+            <TransactionDate>2017-09-18</TransactionDate>
+            <ProcessingDate>2017-09-19</ProcessingDate>
+            <ApprovalCode>155407</ApprovalCode>
+            <BanknetReferenceNum>MCFF9DI1N0915</BanknetReferenceNum>
+            <DebitOrCreditIndicator>D</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000038508</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>840</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="D">0000000000038508</AmountInPostedCurrency>
+            <PostedCurrencyCode>840</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17262</PostedCurrencyConversionDate>
+            <PostedConversionRate>1</PostedConversionRate>
+            <CustomerCode>274769515</CustomerCode>
+            <TotalTaxCollectedIndicator/>
+            <CardAcceptorReferenceNum>56926004511</CardAcceptorReferenceNum>
+            <DestinationPostalCode>90013-1021</DestinationPostalCode>
+            <DestinationStateProvinceCode>UNK</DestinationStateProvinceCode>
+            <OrderDate>2017-09-18</OrderDate>
+            <TaxExemptIndicator>Y</TaxExemptIndicator>
+            <CardAcceptorAdditionalNameInformation>COSTCO DELIVERY 569    323-767-2640  CA</CardAcceptorAdditionalNameInformation>
+            <EmployeeId>58444</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>0000029</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000003286</AcquiringICA>
+            <CardAcceptorId>025267000127761</CardAcceptorId>
+            <CardAcceptorName>COSTCO DELIVERY 569</CardAcceptorName>
+            <CardAcceptorStreetAddress>6333 Telegraph Road</CardAcceptorStreetAddress>
+            <CardAcceptorCity>323-767-2640</CardAcceptorCity>
+            <CardAcceptorStateProvince>CA</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>90040</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>USA</CardAcceptorCountryCode>
+            <CardAcceptorCustomerServiceTelephoneNum>3237672640</CardAcceptorCustomerServiceTelephoneNum>
+            <LegalCorporationName>COSTCO WHOLESALE CORPORATION</LegalCorporationName>
+            <CardAcceptorBusinessCode>5300</CardAcceptorBusinessCode>
+            <CardAcceptorTypeIndicator>YYYY</CardAcceptorTypeIndicator>
+            <CardAcceptorType>1000</CardAcceptorType>
+            <DUNNum>000000000000000</DUNNum>
+            <CardAcceptorTaxIdIndicator>Y</CardAcceptorTaxIdIndicator>
+            <CardAcceptorTaxId>911223280</CardAcceptorTaxId>
+          </CardAcceptor_5001>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000030</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionReasonCode</Label>
+            <Data>RT10</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000031</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionTime</Label>
+            <Data>000000</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000032</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransferedToFromAccount</Label>
+            <Data>556315xxxxxx9328</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+        </FinancialTransactionEntity>
+        <FinancialTransactionEntity ProcessorTransactionId="181710496">
+          <FinancialTransaction_5000>
+            <FinancialRecordHeader>
+              <SequenceNum>0000033</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <ProcessorTransactionId>55432867261100980078527 181710496</ProcessorTransactionId>
+            <ReversalFlag> </ReversalFlag>
+            <MasterCardEstimatedTaxIndicator>0</MasterCardEstimatedTaxIndicator>
+            <MasterCardFinancialTransactionId>20170919205448</MasterCardFinancialTransactionId>
+            <AcquirerReferenceData>55432867261100980078527</AcquirerReferenceData>
+            <CardHolderTransactionType>20</CardHolderTransactionType>
+            <PostingDate>2017-09-18</PostingDate>
+            <TransactionDate>2017-09-18</TransactionDate>
+            <ProcessingDate>2017-09-19</ProcessingDate>
+            <ApprovalCode>00</ApprovalCode>
+            <DebitOrCreditIndicator>C</DebitOrCreditIndicator>
+            <AmountInOriginalCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="C">0000000000002698</AmountInOriginalCurrency>
+            <OriginalCurrencyCode>840</OriginalCurrencyCode>
+            <AmountInPostedCurrency CurrencyCode="840" CurrencyExponent="2" CurrencySign="C">0000000000002698</AmountInPostedCurrency>
+            <PostedCurrencyCode>840</PostedCurrencyCode>
+            <PostedCurrencyConversionDate>17262</PostedCurrencyConversionDate>
+            <PostedConversionRate>1</PostedConversionRate>
+            <TotalTaxCollectedIndicator/>
+            <CardAcceptorReferenceNum>00569902895041</CardAcceptorReferenceNum>
+            <DestinationPostalCode>90013-1021</DestinationPostalCode>
+            <DestinationStateProvinceCode>UNK</DestinationStateProvinceCode>
+            <OrderDate>2017-09-18</OrderDate>
+            <TaxExemptIndicator>Y</TaxExemptIndicator>
+            <CardAcceptorAdditionalNameInformation>COSTCO DELIVERY 569    323-767-2640  CA</CardAcceptorAdditionalNameInformation>
+            <EmployeeId>58444</EmployeeId>
+          </FinancialTransaction_5000>
+          <CardAcceptor_5001>
+            <FinancialRecordHeader>
+              <SequenceNum>0000034</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <AcquiringICA>00000003286</AcquiringICA>
+            <CardAcceptorId>025267000127761</CardAcceptorId>
+            <CardAcceptorName>COSTCO DELIVERY 569</CardAcceptorName>
+            <CardAcceptorStreetAddress>6333 Telegraph Road</CardAcceptorStreetAddress>
+            <CardAcceptorCity>323-767-2640</CardAcceptorCity>
+            <CardAcceptorStateProvince>CA</CardAcceptorStateProvince>
+            <CardAcceptorLocationPostalCode>90040</CardAcceptorLocationPostalCode>
+            <CardAcceptorCountryCode>USA</CardAcceptorCountryCode>
+            <CardAcceptorCustomerServiceTelephoneNum>3237672640</CardAcceptorCustomerServiceTelephoneNum>
+            <LegalCorporationName>COSTCO WHOLESALE CORPORATION</LegalCorporationName>
+            <CardAcceptorBusinessCode>5300</CardAcceptorBusinessCode>
+            <CardAcceptorTypeIndicator>YYYY</CardAcceptorTypeIndicator>
+            <CardAcceptorType>1000</CardAcceptorType>
+            <DUNNum>000000000000000</DUNNum>
+            <CardAcceptorTaxIdIndicator>Y</CardAcceptorTaxIdIndicator>
+            <CardAcceptorTaxId>911223280</CardAcceptorTaxId>
+          </CardAcceptor_5001>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000035</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionReasonCode</Label>
+            <Data>RT11</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000036</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransactionTime</Label>
+            <Data>000000</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+          <CustomFinancialData>
+            <FinancialRecordHeader>
+              <SequenceNum>0000037</SequenceNum>
+              <MaintenanceCode>A</MaintenanceCode>
+            </FinancialRecordHeader>
+            <RecordTypeInd>T</RecordTypeInd>
+            <Label>TransferedToFromAccount</Label>
+            <Data>556315xxxxxx9328</Data>
+            <Type>A</Type>
+          </CustomFinancialData>
+        </FinancialTransactionEntity>
+      </AccountEntity>
+    </CorporateEntity>
+  </IssuerEntity>
+  <TransmissionTrailer_9999>
+    <TransRecordHeader>
+      <SequenceNum>0000038</SequenceNum>
+    </TransRecordHeader>
+    <RecordCount>0000000008</RecordCount>
+    <NumOfCredits>0000000002</NumOfCredits>
+    <TotalAmountOfCredits>0000000034749.12</TotalAmountOfCredits>
+    <NumOfDebits>0000000006</NumOfDebits>
+    <TotalAmountOfDebits>0000000001583.59</TotalAmountOfDebits>
+  </TransmissionTrailer_9999>
+</CDFTransmissionFile>
